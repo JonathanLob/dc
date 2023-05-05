@@ -1,12 +1,12 @@
 import react from "react";
 import "./Esti.css";
-import lobo1 from "../img/superhero.png";
-import lobo2 from "../img/wolverine.png";
+import superhero from "../img/superhero.png";
+import wolverine from "../img/wolverine.png";
 function Wolverine() {
   return (
     <div className="wol_p">
       <div className="wol_l">
-        <img src={lobo1} width="50" />
+        <img src={superhero} width="50" />
       </div>
       <div className="wol">
         <div class="ratio ratio-4x3">
@@ -22,7 +22,7 @@ function Wolverine() {
         </div>
       </div>
       <div className="wol_r">
-        <img src={lobo2} width="50" />
+        <img src={wolverine} width="50" />
       </div>
     </div>
   );
